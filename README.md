@@ -1,2 +1,2 @@
 # EmojiInterpreter
-Created with CodeSandbox
+A signs and emoji iterpreter app in react Created with CodeSandbox 
