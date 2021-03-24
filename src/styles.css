@@ -1,0 +1,64 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(89, 214, 172);
+  margin: 0%;
+  padding: 0%;
+  text-align: center;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  min-height: 50px;
+  justify-content: space-around;
+}
+
+h1 {
+  color: rgb(15, 68, 50);
+}
+
+.input {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 1px solid rgb(15, 68, 50);
+  background: rgb(89, 214, 172);
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+.output {
+  padding: 0.5rem;
+  font-size: 1.3rem;
+  color: rgb(15, 68, 50);
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 1rem;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+.emoji {
+  display: inline-block;
+  font-size: 1.3rem;
+  text-align: center;
+  height: 2rem;
+  width: 2rem;
+  background: #6ee7b7;
+  padding: 0.1rem 0.3rem;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 1px solid;
+  box-shadow: 0 0 8px #122528;
+  color: white;
+  transition: transform 0.1s;
+}
+
+.emoji:hover {
+  transform: scale(1.2);
+}
